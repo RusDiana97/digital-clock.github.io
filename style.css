@@ -22,6 +22,8 @@ h2 {
 
 .clock {
     display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .clock div {
@@ -38,6 +40,7 @@ h2 {
     align-items: center;
     font-size: 50px;
     text-shadow: 2px 2px rgb(241, 116, 174, 0.7);
+    
 }
 
 #hour {
@@ -77,12 +80,16 @@ h2 {
     }
     
     .clock span {
-        width: 80px;
+        width: 50px;
         height: 80px;
         font-size: 30px;
     }
 
+    .clock #am-pm {
+        width: 50px;
+    }
+
     .clock .text {
-        font-size: 12px;
+        font-size: 6.5px;
     }
 }
